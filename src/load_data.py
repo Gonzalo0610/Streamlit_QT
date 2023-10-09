@@ -3,8 +3,6 @@
 def load():
     import pandas as pd
     from nltk.sentiment.vader import SentimentIntensityAnalyzer
-    import nltk
-    nltk.download()
     #load de dataframe
 
     df=pd.read_csv("data/pulp_fiction_dialogue.csv")
